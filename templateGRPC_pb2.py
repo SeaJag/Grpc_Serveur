@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12templateGRPC.proto\"%\n\x13TemplateGRPCRequest\x12\x0e\n\x06number\x18\x01 \x01(\x05\"%\n\x14TemplateGRPCResponse\x12\r\n\x05reply\x18\x01 \x01(\x05\x32S\n\x0cTemplateGRPC\x12\x43\n\x14TemplateGRPCEndpoint\x12\x14.TemplateGRPCRequest\x1a\x15.TemplateGRPCResponseB\x0b\n\tmahb.grpcb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12templateGRPC.proto\"%\n\x13TemplateGRPCRequest\x12\x0e\n\x06number\x18\x01 \x01(\x05\"%\n\x14TemplateGRPCResponse\x12\r\n\x05reply\x18\x01 \x01(\t2S\n\x0cTemplateGRPC\x12\x43\n\x14TemplateGRPCEndpoint\x12\x14.TemplateGRPCRequest\x1a\x15.TemplateGRPCResponseB\x0b\n\tmahb.grpcb\x06proto3')
 
 
 

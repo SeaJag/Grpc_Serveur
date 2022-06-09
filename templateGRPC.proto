@@ -11,5 +11,5 @@ message TemplateGRPCRequest{
 }
 
 message TemplateGRPCResponse{
-	int32 reply = 1;
+	string reply = 1;
 }

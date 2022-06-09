@@ -1,6 +1,6 @@
 Generate protobuf
 
-python3 -m grpc.tools.protoc -I. --python_out=. --grpc_python_out=. server.proto
+python3 -m grpc.tools.protoc -I. --python_out=. --grpc_python_out=. templateGRPC.proto
 
 #generation du certificat ssl mettre le domaine sur le quel on travail pour la
 connection entre le client et le server
