@@ -5,9 +5,10 @@ import time
 import random
 import os
 
+
 def request():
     request = templateGRPC_pb2.TemplateGRPCRequest(
-        number= random.randint(0, 9999)
+        number=random.randint(0, 9999)
     )
 
     try:
@@ -21,6 +22,7 @@ def request():
 if __name__ == '__main__':
     with open('ssl/server.crt', 'rb') as f:
         creds = grpc.ssl_channel_credentials(f.read())
+    # channel = grpc.insecure_channel('localhost:5000')
     channel = grpc.secure_channel('localhost:5000', creds)
     stub = templateGRPC_pb2_grpc.TemplateGRPCStub(channel)
 

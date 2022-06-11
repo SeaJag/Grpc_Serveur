@@ -16,3 +16,9 @@ python3 server.py
 # Client
 
 python3 client.py
+
+# Ressource
+
+https://grpc.github.io/grpc/python/grpc.html#create-client-credentials
+
+https://grpc.io/blog/wireshark/
