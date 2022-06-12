@@ -2,8 +2,6 @@
 
 Create a gRPC server that implements the x --> x+1 method
 
-"An RPC method that takes a HelloRequest parameter from the client and returns a HelloReply from the server"
-
 ## Steps
 
 ### Prerequisites
