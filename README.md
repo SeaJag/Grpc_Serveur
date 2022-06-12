@@ -1,24 +1,31 @@
+# gRPC server
+
+Create a gRPC server that implements the x --> x+1 method
+
+"An RPC method that takes a HelloRequest parameter from the client and returns a HelloReply from the server"
+
+## Steps
+
+### Prerequisites
+
 Generate protobuf
 
-python3 -m grpc.tools.protoc -I. --python_out=. --grpc_python_out=. templateGRPC.proto
+``python3 -m grpc.tools.protoc -I. --python_out=. --grpc_python_out=. templateGRPC.proto``
 
-#generation du certificat ssl mettre le domaine sur le quel on travail pour la
-connection entre le client et le server
+### Installation
 
-# Install
+``pip install -r requirements.txt``
 
-pip install -r requirements.txt
+### Run Server
+``python3 server.py``
 
-# Server
+### Run Client
+``python3 client.py``
 
-python3 server.py
 
-# Client
-
-python3 client.py
-
-# Ressource
+# Ressources
 
 https://grpc.github.io/grpc/python/grpc.html#create-client-credentials
 
 https://grpc.io/blog/wireshark/
+
