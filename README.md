@@ -20,6 +20,9 @@ Need ``pip`` and ``python3`` for this project
 ``python3 server.py``
 
 ### Run Client
+
+Run this command on another terminal window
+
 ``python3 client.py``
 
 
